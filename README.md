@@ -1,5 +1,17 @@
 # Angular2Tut
 
+[video course](https://scotch.io/courses/routing-angular-2-applications/getting-started)
+
+Focus here is on using ngRouter
+
+Router features:
+-Route to different pages
+-Route with parameters
+-Child routes
+-Lazy loading // load modularly
+-handle things like (auth) before/after routes (called guards)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
 ## Development server
