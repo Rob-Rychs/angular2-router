@@ -4,6 +4,7 @@ import { ModuleWithProviders } from '@angular/core';import { AboutComponent } fr
 import { AboutUserComponent } from  '../about-user/about-user.component';
 import { AboutSectionComponent } from './about-section.component';
 import { AboutUsersResolve } from './about-resolve.service';
+import { AboutUserResolve } from '../about-user/about-user-resolve.service';
 
 const aboutRoutes: Routes = [
   // child routing
@@ -19,7 +20,10 @@ const aboutRoutes: Routes = [
       },
       {
         path: ':username',
-        component: AboutUserComponent
+        component: AboutUserComponent,
+        resolve: {
+          user: AboutUserResolve
+        }
       }
     ]
   }
