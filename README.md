@@ -24,7 +24,26 @@ my ngOnIt()
 -fragment
 -outlet
 -child routes
--parnet routes
+-parent routes
+
+RECAP:
+Configure RouterModule
+RouterModule.forRoot(routes);
+
+link to routes
+routerLink="/about"
+[routerLink]="['/about', username]"
+
+Get route parameters
+this.route.snapshot.params['username']
+
+404 Page
+{
+  path: '**',
+  component: NotFoundComponent
+}
+
+get data with route parameters and services
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
