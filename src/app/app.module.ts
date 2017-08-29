@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AboutModule } from './about/about.module';
+
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -22,7 +22,7 @@ import { FileSelectDirective, FileDropDirective, FileUploader } from 'ng2-file-u
   imports: [
     BrowserModule,
     appRouting,
-    AboutModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
