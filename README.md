@@ -13,7 +13,7 @@ Router features:
 
 my ngOnIt()
 
--tyr implementing file upload directives with [ng2-file-upload](http://valor-software.com/ng2-file-upload/)
+-try implementing file upload directives with [ng2-file-upload](http://valor-software.com/ng2-file-upload/)
 
 ## Getting Route Info
 
