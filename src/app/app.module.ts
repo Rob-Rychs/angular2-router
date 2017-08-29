@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { appRouting } from './app.routing';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { AboutUserComponent } from './about-user/about-user.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     HomeComponent,
     ContactComponent,
     AboutComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    AboutUserComponent
   ],
   imports: [
     BrowserModule,

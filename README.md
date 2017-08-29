@@ -11,6 +11,8 @@ Router features:
 -Lazy loading // load modularly
 -handle things like (auth) before/after routes (called guards)
 
+-tyr implementing file upload directives with [ng2-file-upload](http://valor-software.com/ng2-file-upload/)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
