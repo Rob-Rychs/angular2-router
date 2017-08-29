@@ -11,8 +11,20 @@ Router features:
 -Lazy loading // load modularly
 -handle things like (auth) before/after routes (called guards)
 
+my ngOnIt()
+
 -tyr implementing file upload directives with [ng2-file-upload](http://valor-software.com/ng2-file-upload/)
 
+## Getting Route Info
+
+-ActivatedRoute
+-url
+-date
+-queryParams
+-fragment
+-outlet
+-child routes
+-parnet routes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
